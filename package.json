@@ -1,16 +1,13 @@
 {
   "name": "quote-cli",
   "version": "1.0.0",
-  "description": "A CLI tool for random quotes",
+  "description": "project",
   "main": "index.js",
-  "bin": {
-    "quote-cli": "./index.js"
-  },
   "scripts": {
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "jest": "^27.0.0"
+  }
 }
 

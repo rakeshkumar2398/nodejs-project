@@ -24,7 +24,9 @@ jobs:
           node-version: '14'
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install --save-dev jest  # Make sure jest is installed
 
       - name: Run tests
         run: npm test
